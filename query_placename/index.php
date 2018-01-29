@@ -1,7 +1,7 @@
 <?php
 header('Content-Type:text/html; charset=UTF-8');
 
-/* Google Maps V3 API version of getting x, y into database 
+/* Google Maps V3 API version of obtaining  x, y  coordinates as variables
 This version starts by submitting a placename, geocoding it, then zooming the map to the found location.   The marker stays at center of map, no matter how you zoom or pan
 The position as x, y is updated as the map is moved, and is ready to submit in the form
 Code:  Lex Berman 
