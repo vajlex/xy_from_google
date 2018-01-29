@@ -116,7 +116,8 @@ $val_lng = $val->results[0]->geometry->location->lng;
     window.onload = function(){initMap();};
 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZbzSHISk1OVns0oJaqzkTBJbP1JH3sog&callback=initMap"
+<!-- be sure to obtain your personal Google Maps API key for the following line -->  
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOU-MUST-PUT-YOUR-OWN-API-KEY-HERE&callback=initMap"
     async defer></script>
   </body>
 </html>

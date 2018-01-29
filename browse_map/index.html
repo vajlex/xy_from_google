@@ -34,6 +34,14 @@ div#outline {
 }
 
 </style>
+<!-- be sure to obtain your personal Google Maps API key for the following line 
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOU-MUST-PUT-YOUR-OWN-API-KEY-HERE&callback=initMap"
+    async defer></script>
+
+    meanwhile you can use the sensor=false version below for testing
+-->  
+
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
 var map;
@@ -135,7 +143,7 @@ window.onload = function(){initialize();};
     <p><p>
     <a href="http://maps.cga.harvard.edu/xy_from_google_query/">Query by placename version</a>
     <p><p>
-<!-- <b><a href="../xy_to_mysql">JSON parsing Version</a> (allows you to search for a placename)</b> -->
+
 <p>Try Klokan Tech for <a href="https://boundingbox.klokantech.com/" target="_new">bounding boxes</a>
 </center>
 </body>
