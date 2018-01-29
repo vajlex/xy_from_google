@@ -24,7 +24,7 @@ $val_lng = $val->results[0]->geometry->location->lng;
     <title>XY From Google Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-  <link rel='stylesheet' type='text/css'  href='coder.css'>  
+  <link rel='stylesheet' type='text/css'  href='css/coder.css'>  
   </head>
   <body>
 <div id="wrap">

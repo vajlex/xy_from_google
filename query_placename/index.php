@@ -29,8 +29,8 @@ print ("<p><div id=\"item_map_box\"> Enter a Placename to Start With:<br>
 
 
  print ("
- <p><p>
-<p>Try Klokan Tech for <a href=\"https://boundingbox.klokantech.com/\" target=\"_new\">bounding boxes</a>
+ 
+<p><p>See also Klokan Tech for <a href=\"https://boundingbox.klokantech.com/\" target=\"_new\">bounding boxes</a>
 
  </div></body></html>");
 ?>
